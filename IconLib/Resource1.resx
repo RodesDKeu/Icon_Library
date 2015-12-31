@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="android3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\android3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder apple.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder applications.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Card_Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder card deck.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder classic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder clock.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Developer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder developer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder documents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Do_not_disturb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder do not disturb.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_DropBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder dropbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Experiments_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder experiments copy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Fonts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder fonts.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_iChats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder ichats.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder library.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Marlboro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder marlboro.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Movies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder movies.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder music.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder pictures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Private" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder private.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Public" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder public.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Sites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder sites.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder system.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Themes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder themes.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Torrents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder torrents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder users.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Wallpapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder wallpapers.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Smooth_Folder_Works" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua smooth folder works.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder apple.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder applications.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Card_Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder card deck.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder classic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder clock.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Developer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder developer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder documents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Do_not_disturb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder do not disturb.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_DropBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder dropbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Experiments_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder experiments copy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Fonts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder fonts.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Generic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder generic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_iChats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder ichats.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder library.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Marlboro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder marlboro.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Movies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder movies.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder music.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder pictures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Private" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder private.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Public" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder public.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Sites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder sites.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder system.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Themes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder themes.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Torrents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder torrents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder users.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Wallpapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder wallpapers.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqua_Stripped_Folder_Works" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\aqua stripped folder works.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\brain.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="choix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\choix.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clipping_Picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\clipping picture.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clipping_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\clipping sound.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clipping_Text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\clipping text.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clipping_Unknow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\clipping unknow.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\computer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="director" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\director.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_CD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc cd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_CD_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc cd-r.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_CD_RW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc cd-rw.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_DVD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc dvd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_DVD_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc dvd-r.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_DVD_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc dvd+r.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_DVD_RAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc dvd-ram.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_DVD_RW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc dvd-rw.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc_DVD_RW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\disc dvd+rw.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_Application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\document application.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_Font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\document font.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_Generique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\document generique.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\doors.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_External" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive external.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_File_Server" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive file server.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_File_Server_Disconnected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive file server disconnected.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_Firewire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive firewire.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_iDisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive idisk.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_iDisk_Public" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive idisk public.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_Internal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive internal.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_Removable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive removable.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drive_USB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\drive usb.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\et.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="External_Drive_Windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\external drive windows.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="File_Server_Graphite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\file server graphite.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Add_Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar add folder.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Burn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar burn.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Connect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar connect.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Customize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar customize.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar delete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Eject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar eject.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Get_Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar get info.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finder_Toolbar_Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\finder toolbar search.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\fire.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Burnable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder burnable.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Burnable_Stripped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder burnable stripped.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder desktop.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Generic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder generic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder home.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Smart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder smart.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Smart_Stripped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\folder smart stripped.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geiger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\geiger.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder apple.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder applications.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Card_Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder card deck.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder classic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder clock.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Developer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder developer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder documents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Do_not_disturb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder do not disturb.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_DropBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder dropbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Experiments_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder experiments copy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Fonts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder fonts.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Generic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder generic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_iChats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder ichats.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder library.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Marlboro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder marlboro.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Movies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder movies.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder music.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder pictures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Private" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder private.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Public" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder public.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Sites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder sites.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder system.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Themes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder themes.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Torrents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder torrents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder users.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Wallpapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder wallpapers.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Smooth_Folder_Works" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite smooth folder works.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder apple.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder applications.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Card_Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder card deck.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder classic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder clock.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Developer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder developer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder documents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Do_not_disturb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder do not disturb.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_DropBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder dropbox.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Experiments_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder experiments copy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Fonts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder fonts.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Generic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder generic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_iChats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder ichats.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder library.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Marlboro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder marlboro.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Movies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder movies.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder music.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder pictures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Private" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder private.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Public" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder public.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Sites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder sites.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder system.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Themes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder themes.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Torrents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder torrents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder users.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Wallpapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder wallpapers.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graphite_Stripped_Folder_Works" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\graphite stripped folder works.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\hole.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iDisk_Graphite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\idisk graphite.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iPod_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ipod white.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lentille" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\lentille.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_AFP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location afp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_FIle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location file.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_FTP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location ftp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_Generic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location generic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_HTTP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location http.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_Mailto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location mailto.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location_News" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\location news.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Network" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\network.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Network_Graphite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\network graphite.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plateau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\plateau.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\print.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbon7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbon7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbondoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbondoc.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbonmusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbonmusic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbonpictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbonpictures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbonvideo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\ribbonvideo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saispas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\saispas.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\settings.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snoopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\snoopy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\speaker.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speaker2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\speaker2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speaker3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\speaker3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splosh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\splosh.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splosh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\splosh2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splosh3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\splosh3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\sun.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar application.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar documents.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Favorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar favorites.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Movies_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar movies copy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar music.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar pictures.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbar_Public" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\toolbar public.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\tv2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\zip.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zip1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\zip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_case" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\case.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons\out.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

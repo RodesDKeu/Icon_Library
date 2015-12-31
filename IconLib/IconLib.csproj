@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00CC3E21-F398-47A0-A21F-24E46AEB65F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IconLib</RootNamespace>
+    <AssemblyName>IconLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon1.ico" />
+    <Content Include="Icons\android3.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Apple.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Applications.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Card Deck.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Classic.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Clock.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Developer.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Do not disturb.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Documents.ico" />
+    <Content Include="Icons\Aqua Smooth Folder DropBox.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Experiments copy.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Fonts.ico" />
+    <Content Include="Icons\Aqua Smooth Folder iChats.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Library.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Marlboro.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Movies.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Music.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Pictures.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Private.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Public.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Sites.ico" />
+    <Content Include="Icons\Aqua Smooth Folder System.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Themes.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Torrents.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Users.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Wallpapers.ico" />
+    <Content Include="Icons\Aqua Smooth Folder Works.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Apple.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Applications.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Card Deck.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Classic.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Clock.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Developer.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Do not disturb.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Documents.ico" />
+    <Content Include="Icons\Aqua Stripped Folder DropBox.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Experiments copy.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Fonts.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Generic.ico" />
+    <Content Include="Icons\Aqua Stripped Folder iChats.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Library.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Marlboro.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Movies.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Music.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Pictures.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Private.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Public.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Sites.ico" />
+    <Content Include="Icons\Aqua Stripped Folder System.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Themes.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Torrents.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Users.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Wallpapers.ico" />
+    <Content Include="Icons\Aqua Stripped Folder Works.ico" />
+    <Content Include="Icons\brain.ico" />
+    <Content Include="Icons\case.ico" />
+    <Content Include="Icons\choix.ico" />
+    <Content Include="Icons\Clipping Picture.ico" />
+    <Content Include="Icons\Clipping Sound.ico" />
+    <Content Include="Icons\Clipping Text.ico" />
+    <Content Include="Icons\Clipping Unknow.ico" />
+    <Content Include="Icons\Computer.ico" />
+    <Content Include="Icons\director.ico" />
+    <Content Include="Icons\Disc CD-R.ico" />
+    <Content Include="Icons\Disc CD-RW.ico" />
+    <Content Include="Icons\Disc CD.ico" />
+    <Content Include="Icons\Disc DVD+R.ico" />
+    <Content Include="Icons\Disc DVD+RW.ico" />
+    <Content Include="Icons\Disc DVD-R.ico" />
+    <Content Include="Icons\Disc DVD-RAM.ico" />
+    <Content Include="Icons\Disc DVD-RW.ico" />
+    <Content Include="Icons\Disc DVD.ico" />
+    <Content Include="Icons\disc.ico" />
+    <Content Include="Icons\Document Application.ico" />
+    <Content Include="Icons\Document Font.ico" />
+    <Content Include="Icons\Document Generique.ico" />
+    <Content Include="Icons\doors.ico" />
+    <Content Include="Icons\Drive External.ico" />
+    <Content Include="Icons\Drive File Server Disconnected.ico" />
+    <Content Include="Icons\Drive File Server.ico" />
+    <Content Include="Icons\Drive Firewire.ico" />
+    <Content Include="Icons\Drive iDisk Public.ico" />
+    <Content Include="Icons\Drive iDisk.ico" />
+    <Content Include="Icons\Drive Internal.ico" />
+    <Content Include="Icons\Drive Removable.ico" />
+    <Content Include="Icons\Drive USB.ico" />
+    <Content Include="Icons\ET.ico" />
+    <Content Include="Icons\External Drive Windows.ico" />
+    <Content Include="Icons\File Server Graphite.ico" />
+    <Content Include="Icons\Finder Toolbar Add Folder.ico" />
+    <Content Include="Icons\Finder Toolbar Burn.ico" />
+    <Content Include="Icons\Finder Toolbar Connect.ico" />
+    <Content Include="Icons\Finder Toolbar Customize.ico" />
+    <Content Include="Icons\Finder Toolbar Delete.ico" />
+    <Content Include="Icons\Finder Toolbar Eject.ico" />
+    <Content Include="Icons\Finder Toolbar Get Info.ico" />
+    <Content Include="Icons\Finder Toolbar Search.ico" />
+    <Content Include="Icons\fire.ico" />
+    <Content Include="Icons\Folder Burnable Stripped.ico" />
+    <Content Include="Icons\Folder Burnable.ico" />
+    <Content Include="Icons\Folder Desktop.ico" />
+    <Content Include="Icons\Folder Generic.ico" />
+    <Content Include="Icons\Folder Home.ico" />
+    <Content Include="Icons\Folder Smart Stripped.ico" />
+    <Content Include="Icons\Folder Smart.ico" />
+    <Content Include="Icons\geiger.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Apple.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Applications.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Card Deck.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Classic.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Clock.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Developer.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Do not disturb.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Documents.ico" />
+    <Content Include="Icons\Graphite Smooth Folder DropBox.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Experiments copy.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Fonts.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Generic.ico" />
+    <Content Include="Icons\Graphite Smooth Folder iChats.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Library.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Marlboro.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Movies.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Music.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Pictures.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Private.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Public.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Sites.ico" />
+    <Content Include="Icons\Graphite Smooth Folder System.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Themes.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Torrents.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Users.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Wallpapers.ico" />
+    <Content Include="Icons\Graphite Smooth Folder Works.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Apple.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Applications.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Card Deck.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Classic.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Clock.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Developer.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Do not disturb.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Documents.ico" />
+    <Content Include="Icons\Graphite Stripped Folder DropBox.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Experiments copy.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Fonts.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Generic.ico" />
+    <Content Include="Icons\Graphite Stripped Folder iChats.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Library.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Marlboro.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Movies.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Music.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Pictures.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Private.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Public.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Sites.ico" />
+    <Content Include="Icons\Graphite Stripped Folder System.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Themes.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Torrents.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Users.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Wallpapers.ico" />
+    <Content Include="Icons\Graphite Stripped Folder Works.ico" />
+    <Content Include="Icons\hole.ico" />
+    <Content Include="Icons\iDisk Graphite.ico" />
+    <Content Include="Icons\iPod White.ico" />
+    <Content Include="Icons\lentille.ico" />
+    <Content Include="Icons\Location AFP.ico" />
+    <Content Include="Icons\Location FIle.ico" />
+    <Content Include="Icons\Location FTP.ico" />
+    <Content Include="Icons\Location Generic.ico" />
+    <Content Include="Icons\Location HTTP.ico" />
+    <Content Include="Icons\Location Mailto.ico" />
+    <Content Include="Icons\Location News.ico" />
+    <Content Include="Icons\Network Graphite.ico" />
+    <Content Include="Icons\Network.ico" />
+    <Content Include="Icons\out.ico" />
+    <Content Include="Icons\plateau.ico" />
+    <Content Include="Icons\print.ico" />
+    <Content Include="Icons\ribbon.ico" />
+    <Content Include="Icons\ribbon2.ico" />
+    <Content Include="Icons\ribbon3.ico" />
+    <Content Include="Icons\ribbon4.ico" />
+    <Content Include="Icons\ribbon5.ico" />
+    <Content Include="Icons\ribbon6.ico" />
+    <Content Include="Icons\ribbon7.ico" />
+    <Content Include="Icons\ribbondoc.ico" />
+    <Content Include="Icons\ribbonmusic.ico" />
+    <Content Include="Icons\ribbonpictures.ico" />
+    <Content Include="Icons\ribbonvideo.ico" />
+    <Content Include="Icons\saispas.ico" />
+    <Content Include="Icons\settings.ico" />
+    <Content Include="Icons\snoopy.ico" />
+    <Content Include="Icons\speaker.ico" />
+    <Content Include="Icons\speaker2.ico" />
+    <Content Include="Icons\speaker3.ico" />
+    <Content Include="Icons\splosh.ico" />
+    <Content Include="Icons\splosh2.ico" />
+    <Content Include="Icons\splosh3.ico" />
+    <Content Include="Icons\sun.ico" />
+    <Content Include="Icons\Toolbar Application.ico" />
+    <Content Include="Icons\Toolbar Documents.ico" />
+    <Content Include="Icons\Toolbar Favorites.ico" />
+    <Content Include="Icons\Toolbar Movies copy.ico" />
+    <Content Include="Icons\Toolbar Music.ico" />
+    <Content Include="Icons\Toolbar Pictures.ico" />
+    <Content Include="Icons\Toolbar Public.ico" />
+    <Content Include="Icons\tv2.ico" />
+    <Content Include="Icons\zip.ico" />
+    <Content Include="Icons\zip.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\bin\Debug\IconLib.dll
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\bin\Debug\IconLib.pdb
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\obj\Debug\IconLib.csprojResolveAssemblyReference.cache
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\obj\Debug\IconLib.Resource1.resources
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\obj\Debug\IconLib.csproj.GenerateResource.Cache
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\obj\Debug\IconLib.dll
+e:\Users\Lasse\Documents\Visual Studio 2013\Projects\IconLib\IconLib\obj\Debug\IconLib.pdb
